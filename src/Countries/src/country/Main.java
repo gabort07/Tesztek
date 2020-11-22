@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) throws FileNotFoundException {
         WorldStatistics worldStatistics = new WorldStatistics();
-        worldStatistics.readFiles("files/varosok.txt", "files/orszagok.txt");
+        worldStatistics.readFiles("/home/progmatic/github/Tesztek/src/Countries/files/varosok.txt", "/home/progmatic/github/Tesztek/src/Countries/files/orszagok.txt");
 
         System.out.println("2. Népsûrûség (fõ/km2)");
         worldStatistics.writePopDensity();
